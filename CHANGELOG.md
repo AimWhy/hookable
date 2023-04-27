@@ -2,6 +2,167 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v5.5.3
+
+[compare changes](https://github.com/unjs/hookable/compare/v5.5.2...v5.5.3)
+
+
+### 🩹 Fixes
+
+  - Clone hook arrays before calling ([#79](https://github.com/unjs/hookable/pull/79))
+
+### 🏡 Chore
+
+  - Update deps ([8b5765f](https://github.com/unjs/hookable/commit/8b5765f))
+
+### ❤️  Contributors
+
+- Pooya Parsa ([@pi0](http://github.com/pi0))
+- Daniel Roe <daniel@roe.dev>
+
+## v5.5.2
+
+[compare changes](https://github.com/unjs/hookable/compare/v5.5.1...v5.5.2)
+
+
+### 📖 Documentation
+
+  - Add `removeAllHooks` and fix typos ([#72](https://github.com/unjs/hookable/pull/72))
+
+### 🌊 Types
+
+  - Work with strict config ([#63](https://github.com/unjs/hookable/pull/63))
+
+### 🏡 Chore
+
+  - **lint:** Run lint:fix to fix formatting ([#77](https://github.com/unjs/hookable/pull/77))
+  - Update dependencies ([9443040](https://github.com/unjs/hookable/commit/9443040))
+
+### ❤️  Contributors
+
+- Pooya Parsa ([@pi0](http://github.com/pi0))
+- Rafał Chłodnicki ([@rchl](http://github.com/rchl))
+- Vinccool96 <Vinccool96@gmail.com>
+- Nozomu Ikuta
+
+## v5.5.1
+
+[compare changes](https://github.com/unjs/hookable/compare/v5.5.0...v5.5.1)
+
+
+### 🩹 Fixes
+
+  - Shift name out of arg array ([#71](https://github.com/unjs/hookable/pull/71))
+
+### 📖 Documentation
+
+  - Update badges ([13b0c90](https://github.com/unjs/hookable/commit/13b0c90))
+
+### ❤️  Contributors
+
+- Daniel Roe <daniel@roe.dev>
+- Sébastien Chopin <seb@nuxtjs.com>
+
+## v5.5.0
+
+[compare changes](https://github.com/unjs/hookable/compare/v5.4.2...v5.5.0)
+
+
+### 🚀 Enhancements
+
+  - Add function name to hook for better dx in stacktraces ([#68](https://github.com/unjs/hookable/pull/68))
+  - Use `console.createTask` to improve traces where supported ([#69](https://github.com/unjs/hookable/pull/69))
+  - Add `removeAllHooks` utility ([#61](https://github.com/unjs/hookable/pull/61))
+
+### 🏡 Chore
+
+  - Add latest `@types/node` package ([#66](https://github.com/unjs/hookable/pull/66))
+  - Add `.prettierrc` ([4b3e99b](https://github.com/unjs/hookable/commit/4b3e99b))
+  - Use changelogen for releases ([151d16b](https://github.com/unjs/hookable/commit/151d16b))
+  - Simplify variable names ([369a2fe](https://github.com/unjs/hookable/commit/369a2fe))
+
+### ✅ Tests
+
+  - Fix vitest type issue ([#70](https://github.com/unjs/hookable/pull/70))
+
+### 🎨 Styles
+
+  - Format with prettier ([#65](https://github.com/unjs/hookable/pull/65))
+
+### ❤️  Contributors
+
+- Nozomu Ikuta 
+- Pooya Parsa ([@pi0](http://github.com/pi0))
+- Daniel Roe <daniel@roe.dev>
+
+### [5.4.2](https://github.com/unjs/hookable/compare/v5.4.1...v5.4.2) (2022-11-15)
+
+
+### Bug Fixes
+
+* add types subpath export ([211ee2e](https://github.com/unjs/hookable/commit/211ee2e36f2cccbf930a5fa1f029301b632f093c))
+
+### [5.4.1](https://github.com/unjs/hookable/compare/v5.4.0...v5.4.1) (2022-10-15)
+
+
+### Bug Fixes
+
+* accept any hookable ([#53](https://github.com/unjs/hookable/issues/53)) ([0eac02c](https://github.com/unjs/hookable/commit/0eac02cc6f975990ca458a587007f3bfd33e8a95))
+* allow parallel hooks with unique time strings ([#55](https://github.com/unjs/hookable/issues/55)) ([ee64dc8](https://github.com/unjs/hookable/commit/ee64dc8299d15367eb2c62806c5b96eb1f88db32))
+* handle case where hook adds debugger ([#54](https://github.com/unjs/hookable/issues/54)) ([f6d4475](https://github.com/unjs/hookable/commit/f6d4475166a5941f6fba16f836c2c8e91971b974))
+
+## [5.4.0](https://github.com/unjs/hookable/compare/v5.3.0...v5.4.0) (2022-10-13)
+
+
+### Features
+
+* add `createDebugger` utility ([#51](https://github.com/unjs/hookable/issues/51)) ([021eb34](https://github.com/unjs/hookable/commit/021eb34d999b61d8189cc1c10116252588dba34f))
+
+## [5.3.0](https://github.com/unjs/hookable/compare/v5.2.2...v5.3.0) (2022-09-02)
+
+
+### Features
+
+* allow registering a hook without showing deprecated message ([0fcd787](https://github.com/unjs/hookable/commit/0fcd787fd2fd0fd8b660dda8706b90cc4bf14ba8))
+
+
+### Bug Fixes
+
+* show deprecation warning only once ([526e4dc](https://github.com/unjs/hookable/commit/526e4dc821e6edae51245f0cd44f0ba938719776))
+
+### [5.2.2](https://github.com/unjs/hookable/compare/v5.2.1...v5.2.2) (2022-08-23)
+
+
+### Bug Fixes
+
+* only specify return type for `callHook`/`callHookParallel` ([ed0d6a8](https://github.com/unjs/hookable/commit/ed0d6a82d8aa11044851888ab5c71ccbe4369c69))
+
+### [5.2.1](https://github.com/unjs/hookable/compare/v5.2.0...v5.2.1) (2022-08-23)
+
+
+### Bug Fixes
+
+* ensure calling hooks always returns a promise ([44679c8](https://github.com/unjs/hookable/commit/44679c890f7b3b92331bd5dffeac95b61eab2858))
+
+## [5.2.0](https://github.com/unjs/hookable/compare/v5.1.2...v5.2.0) (2022-08-23)
+
+
+### Features
+
+* add `beforeEach` and `afterEach` spies ([#46](https://github.com/unjs/hookable/issues/46)) ([949d8b7](https://github.com/unjs/hookable/commit/949d8b76817dfc47e6b1ce4ed09204e7c33d0ec1))
+
+
+### Bug Fixes
+
+* deprecate hooks doesn't have to be passed all hooks ([#48](https://github.com/unjs/hookable/issues/48)) ([0c4fef0](https://github.com/unjs/hookable/commit/0c4fef0d39ccd123efca29a9506854f01ae685f7))
+
+### [5.1.2](https://github.com/unjs/hookable/compare/v5.1.1...v5.1.2) (2022-08-23)
+
+
+### Bug Fixes
+
+* handle deprecated hooks after being registred ([23d9ff4](https://github.com/unjs/hookable/commit/23d9ff4f1313148942990e5e078d91838f78e8c2))
+
 ### [5.1.1](https://github.com/unjs/hookable/compare/v5.1.0...v5.1.1) (2021-12-21)
 
 

@@ -1,8 +1,6 @@
 {
-  "extends": [
-    "@nuxtjs/eslint-config-typescript"
-  ],
+  "extends": ["eslint-config-unjs"],
   "rules": {
-    "no-console": 0
+    "@typescript-eslint/no-unused-vars": 0
   }
 }
